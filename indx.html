@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="logo"><img src="img\raggruppa 2.png"></div>
+    <div class="cart"><img src="img\Icon material-shopping-cart.png" alt="" width="50" height="50"></div>
+    <div class="account"><img src="img/Icon material-account-circle.png" width="50" height="50"></div>
+    <div class="dunkbw"><img src="img/bw.jpg" alt=""></div>
+    <div class="dunkchi"><img src="img/dunk-low-nba-75th-anniversary-chicago-bulls-831495-removebg-preview.png" alt=""></div>
+    <div class="dunkarc"><img src="img/Nike-Dunk-Low-Archeo-Pink-W-Product.jpg" alt=""></div>
+    <div class="inp">le nostre sneakers</div>
+    <div class="mail"><img src="img/Raggruppa 4.png"></div>
+    <div class="box"><img src="img/Rettangolo 6.png"></div>
+    <div class="psw"><img src="img/Raggruppa 5.png"></div>
+    <div class="box2"><img src="img/Rettangolo 6.png"></div>
+    <div class="login">Login</div>
+    <textarea class="input" style="border:solid 2px black;"></textarea>
+    <div class="dunkbw2"><img src="img/bw.jpg"> </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            /* Open Panel */
+            $(".account").on('click', function() {
+                $(".login").toggleClass("login--open")
+                $(".logo").toggleClass("logo--open");
+                $(".account").toggleClass("account--open");
+                $(".cart").toggleClass("cart--open");
+                $(".inp").toggleClass("inp--open");
+                $(".dunkbw").toggleClass("dunkbw--open");
+                $(".dunkchi").toggleClass("dunkchi--open");
+                $(".dunkarc").toggleClass("dunkarc--open");
+                $(".mail").toggleClass("mail--open");
+                $(".box").toggleClass("box--open");
+                $(".box2").toggleClass("box2--open");
+                $(".psw").toggleClass("psw--open");
+                $(".input").toggleClass("input--open");
+
+            });
+
+
+        });
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".dunkbw").on('click', function() {
+                $("dunkbw2").toggleClass("dunkbw2--open")
+                $(".account").toggleClass("account---open")
+
+
+
+
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
