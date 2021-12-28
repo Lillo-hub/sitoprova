@@ -1,239 +1,214 @@
-/* TODO:  */
-
-body {
-    font-family: 'Inter', sans-serif;
-}
-
-.logo {
-    margin-left: 780px;
-    position: fixed;
-    margin-top: 20px;
-    padding: 30px;
-    width: 330px;
-    height: 120px;
-    display: flex;
-}
-
-.mail {
-    display: none;
-}
-
-.cart {
-    margin-left: 1650px;
-    position: fixed;
-    margin-top: 38px;
-    padding: 30px;
-}
-
-.account {
-    margin-left: 200px;
-    position: fixed;
-    margin-top: 41px;
-    padding: 30px;
-    width: 10px;
-    height: auto;
-}
-
-.inp {
-    margin-top: 13%;
-    position: fixed;
-    margin-left: 46%;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.dunkbw {
-    margin-left: 200px;
-    margin-top: 300px;
-    display: flex;
-    position: fixed;
-}
-
-.dunkchi {
-    margin-left: 600px;
-    margin-top: 280px;
-    display: flex;
-    position: fixed;
-    width: 300px;
-    height: 200px;
-}
-
-.dunkarc {
-    display: none;
-}
-
-.login {
-    display: none;
-}
-
-.box {
-    display: none;
-}
-
-.psw {
-    display: none;
-}
-
-.box2 {
-    display: none;
-}
-
-.input {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .account {
-        margin-left: 10px;
-        position: fixed;
-        margin-top: 20px;
-    }
-    .cart {
-        margin-left: 270px;
-        margin-top: 20px;
-        position: fixed;
-    }
-    .logo {
-        margin-left: 95px;
-        width: 70px;
-        height: 45px;
-        display: flex;
-    }
-    .dunkbw {
-        width: 100px;
-        height: 70px;
-        display: flex;
-        margin-top: 200px;
-        margin-left: 40px;
-        position: fixed;
-    }
-    .dunkchi {
-        width: 100px;
-        height: 70px;
-        display: flex;
-        margin-top: 197px;
-        margin-left: 230px;
-        position: fixed;
-    }
-    .dunkarc {
-        width: 100px;
-        height: 70px;
-        display: flex;
-        margin-top: 300px;
-        margin-left: 40px;
-        position: fixed;
-    }
-    .box {
-        display: none;
-    }
-    .inp {
-        margin-top: 180px;
-        margin-left: 110px;
-        position: fixed;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    .login {
-        display: none;
-    }
-    .mail {
-        display: none;
-    }
-    .login--open {
-        margin-top: 130px;
-        margin-left: 173px;
-        font-weight: bold;
-        position: fixed;
-        display: flex;
-    }
-    .cart--open {
-        display: none;
-    }
-    .logo--open {
-        margin-top: -10px;
-        position: fixed;
-        display: flex;
-    }
-    .account--open {
-        margin-top: 50px;
-        margin-left: 140px;
-        display: flex;
-        position: fixed;
-    }
-    .inp--open {
-        display: none;
-    }
-    .dunkbw--open {
-        display: none;
-    }
-    .dunkchi--open {
-        display: none;
-    }
-    .dunkarc--open {
-        display: none;
-    }
-    .input--open {
-        position: fixed;
-        display: flex;
-        border: 50px;
-        margin-top: 210px;
-        margin-left: 110px;
-        height: 15px;
-        font-weight: bold;
-        font-family: "inter", "sans-serif";
-        border-radius: 25px;
-        background-color: #F89859;
-    }
-    .mail--open {
-        margin-top: 180px;
-        margin-left: 170px;
-        display: flex;
-        position: fixed;
-        width: 30px;
-        height: 20px;
-    }
-    .box--open {
-        margin-top: 200px;
-        margin-left: 100px;
-        position: fixed;
-        display: none;
-        width: 40px;
-        height: 25px;
-    }
-    .box2 {
-        display: none;
-    }
-    .psw--open {
-        margin-top: 250px;
-        margin-left: 130px;
-        display: flex;
-        position: fixed;
-        width: 40px;
-        height: 30px;
-    }
-    .box2--open {
-        margin-top: 280px;
-        margin-left: 100px;
-        display: flex;
-        width: 40px;
-        height: 25px;
-        position: fixed;
-    }
-    .dunkbw2 {
-        display: none;
-    }
-    .account---open {
-        display: none;
-    }
-}
-
-.dunkbw2 {
-    display: none;
-}
-
-*,
-*:before *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+            /* TODO:  */
+            
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+            
+            .logo {
+                margin-left: 780px;
+                position: fixed;
+                margin-top: 20px;
+                padding: 30px;
+                width: 330px;
+                height: 120px;
+                display: flex;
+            }
+            
+            .inp {
+                margin-top: 13%;
+                position: fixed;
+                margin-left: 46%;
+                text-transform: uppercase;
+                font-weight: bold;
+                display: none;
+            }
+            
+            .dunkbw {
+                margin-left: 200px;
+                margin-top: 300px;
+                display: none;
+                position: fixed;
+            }
+            
+            .dunkchi {
+                margin-left: 600px;
+                margin-top: 280px;
+                display: none;
+                position: fixed;
+                width: 300px;
+                height: 200px;
+            }
+            
+            .dunkarc {
+                display: none;
+            }
+            
+            .input {
+                display: none;
+            }
+            
+            .ret {
+                display: none;
+            }
+            
+            @media (max-width: 768px) {
+                .logo {
+                    margin-left: 95px;
+                    width: 70px;
+                    height: 45px;
+                    display: flex;
+                }
+                .dunkbw {
+                    width: 100px;
+                    height: 70px;
+                    display: flex;
+                    margin-top: 200px;
+                    margin-left: 40px;
+                    position: fixed;
+                }
+                .dunkchi {
+                    width: 100px;
+                    height: 70px;
+                    display: flex;
+                    margin-top: 197px;
+                    margin-left: 230px;
+                    position: fixed;
+                }
+                .dunkarc {
+                    width: 100px;
+                    height: 70px;
+                    display: flex;
+                    margin-top: 300px;
+                    margin-left: 40px;
+                    position: fixed;
+                }
+                .box {
+                    display: none;
+                }
+                .inp {
+                    margin-top: 180px;
+                    margin-left: 110px;
+                    position: fixed;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    display: flex;
+                }
+                .dunkbw2 {
+                    display: none;
+                }
+                .inp---open {
+                    display: none;
+                }
+                .dunkchi---open {
+                    display: none;
+                }
+                .dunkarc---open {
+                    display: none;
+                }
+                .dunkbw---open {
+                    display: flex;
+                    margin-top: 210px;
+                    margin-left: 120px;
+                    height: 100px;
+                    width: 70px;
+                }
+                .ret {
+                    display: none;
+                }
+                .ret---open {
+                    width: 140px;
+                    height: 30px;
+                    display: flex;
+                    position: fixed;
+                    background-color: #F89859;
+                    margin-top: 300px;
+                    margin-left: 115px;
+                    border-radius: 30px;
+                }
+                .size {
+                    margin-top: 5px;
+                    margin-left: 50px;
+                    display: flex;
+                    position: fixed;
+                    font-weight: bold;
+                }
+                .retopen2 {
+                    width: 140px;
+                    height: 100px;
+                    display: flex;
+                    position: fixed;
+                    background-color: #F89859;
+                    margin-top: 300px;
+                    margin-left: 115px;
+                    border-radius: 30px;
+                }
+                .sizebw {
+                    display: none;
+                }
+                .sizebwopen {
+                    display: inline-block;
+                    margin-left: 55px;
+                    margin-top: 26px;
+                    font-weight: bold;
+                }
+                .cerchi {
+                    display: flex;
+                    position: fixed;
+                }
+                .cerchio3 {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    position: fixed;
+                    background-color: black;
+                    margin-top: 70px;
+                    margin-left: 30px;
+                    border-radius: 50%;
+                }
+                .cerchio4 {
+                    width: 100px;
+                    height: 100px;
+                    display: flex;
+                    position: fixed;
+                    background-color: #F89859;
+                    margin-top: -15px;
+                    margin-left: -15px;
+                    border-radius: 50%;
+                }
+                .cerchio1 {
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    position: fixed;
+                    background-color: grey;
+                    margin-top: 23px;
+                    margin-left: 45px;
+                    border-radius: 50%;
+                }
+                .cerchio2 {
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    position: fixed;
+                    background-color: grey;
+                    margin-top: 45px;
+                    margin-left: -10px;
+                    border-radius: 50%;
+                }
+                .cerchi5 {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    position: fixed;
+                    background-color: black;
+                    margin-top: 10px;
+                    margin-left: 30px;
+                    border-radius: 50%;
+                }
+                *,
+                *:before *:after {
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+            }
